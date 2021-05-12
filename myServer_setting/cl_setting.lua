@@ -78,6 +78,19 @@ Citizen.CreateThread(function()
                 EnableDispatchService(dispatchService, false) --Liste des dispatchService sur FivemNative description de la native (EnableDispatchService)
             end
         end
+        if Config.Setting.crossHit == false then
+            if  IsPedArmed(PlayerPedId(), 6) then
+                DisableControlAction(1, 140, true)
+                DisableControlAction(1, 141, true)
+                DisableControlAction(1, 142, true)
+            end
+        end
+        if Config.Setting.xMas == true then
+            SetWeatherTypePersist("XMAS")
+            SetWeatherTypeNowPersist("XMAS")
+            SetWeatherTypeNow("XMAS")
+            SetOverrideWeather("XMAS")   
+        end
     end
 end)
 

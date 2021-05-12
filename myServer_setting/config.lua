@@ -13,6 +13,8 @@ Config.Setting = {
     train               = false,    --true:     activera les train
     playerAfkCam        = false,    --true:     activera le passage de caméra en mode AFK
     hudonline           = false,    --true:     vous activerez les hud gtaOnline
+    crossHit            = false,    --true:     activera les coups de cross
+    xMas                = false,    --true:     activera la neige
 }
 
 --Votre texte Menu escape       (escMenutext        = true)

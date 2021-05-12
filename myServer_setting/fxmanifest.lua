@@ -2,9 +2,8 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'myServerESX SETTING'
-
-version 'v1.0'
+description 'myServer_setting'
+version 'v1.1'
 
 client_scripts {
 	'cl_setting.lua',
